@@ -20,7 +20,7 @@ Browser-based BTC, LTC, and DOGE cryptocurrency message signing, using [bitcoinj
 
 # Quick Start - No Build
 
-If you would like to run this on your local (or not!) machine, simply clone or download the repository and visit `signmessage.html` in your browser. **🚨 BE CAREFUL. YOUR PRIVATE KEYS ARE INVOLVED!! 🚨**
+If you would like to run this on your local (or not!) machine, simply clone or download the repository and visit `dist/signmessage.html` in your browser. **🚨 BE CAREFUL. YOUR PRIVATE KEYS ARE INVOLVED!! 🚨**
 
 # Build
 
