@@ -1,6 +1,6 @@
 # bitcoinjs-message-signing
 
-Browser-based BTC, LTC, and DOGE cryptocurrency message signing, using [bitcoinjs-lib](sdf) and [bitcoinjs-message]().
+Browser-based BTC, LTC, and DOGE cryptocurrency message signing, using [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib) and [bitcoinjs-message](https://github.com/bitcoinjs/bitcoinjs-message).
 
 ---
 
@@ -14,7 +14,7 @@ Browser-based BTC, LTC, and DOGE cryptocurrency message signing, using [bitcoinj
 
 ---
 
-**[tinyify]() is used in the provided `dist/bitcoinjs.js` to remove all unused parts of [bitcoinjs-lib`]() (of which there are many). _This package is strictly limited to message signing._**
+**[tinyify](https://www.npmjs.com/package/tinyify) is used in the provided `dist/bitcoinjs.js` to remove all unused parts of [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib) (of which there are many). _This package is strictly limited to message signing._**
 
 ---
 
@@ -28,9 +28,9 @@ If you would like to run this on your local (or not!) machine, simply clone or d
 
 2. `npm install`
 
-3. if not already installed: `npm install -g browserify` - this package uses [browserify]() so everything runs in a front-end context
+3. if not already installed: `npm install -g browserify` - this package uses [browserify](https://browserify.org/) so everything runs in a front-end context
 
-4. OPTIONAL: `npm install tinyify` - [tinyify]() is used in the `dist/bitcoinjs.js` version to remove all unused parts of [bitcoinjs-lib`]() (of which there are many). _This package is strictly limited to message signing._
+4. OPTIONAL: `npm install tinyify` - [tinyify](https://www.npmjs.com/package/tinyify) is used in the `dist/bitcoinjs.js` version to remove all unused parts of [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib) (of which there are many). _This package is strictly limited to message signing._
 
 5. IF USING TINYIFY: `browserify -p tinyify index.js -s bitcoinjs > dist/bitcoinjs.js`
 
