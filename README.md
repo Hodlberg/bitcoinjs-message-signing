@@ -6,7 +6,7 @@ Browser-based BTC, LTC, and DOGE cryptocurrency message signing, using [bitcoinj
 
 🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨
 
- This front-end codes uses private keys to sign a message. **NEVER**, **EVER** let anyone, man or machine, know your private key unless you know _exactly_ what you are doing. **PLEASE** download this package, install, disconnect your internet, check the code for any funny business, compile, disable/uninstall all extensions, turn off the lights, and run in a secure environment before inputting your private keys.
+ This front-end code uses private keys to sign a message. **NEVER**, **EVER** let anyone, man or machine, know your private key unless you know _exactly_ what you are doing. **PLEASE** download this package, install, disconnect your internet, check the code for any funny business, compile, disable/uninstall all extensions, turn off the lights, and run in a secure environment before inputting your private keys.
  
  **I AM NOT RESPONSIBLE FOR ANY LOSSES OR DAMAGES INCURRED FROM USING THIS SOFTWARE!!**
 
