@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+	<title>Hodlberg ]-[ Financial - Sign Message</title>
+	<script src='./bitcoinjs.js'></script>
+	<script src='./signMessage.js'></script>
+	<style>
+		.signMessage div { margin: auto; }
+		.signMessage input[type="text"] { width: 50%; }
+		.signMessage #signMessageSignature { font-family: monospace; font-weight: normal; font-size: 1rem; color: #CCC; word-break: break-all; }
+	</style>
+</head>
+<body>
+	<div class='signMessage'>
+		<div>
+			<h2>Step 1: Select a Currency:</h2>
+			<select id='currency'>
+				<option value='0'>Please Select a Currency</option>
+				<option value='BTC'>Bitcoin (BTC)</option> <!-- Accepts any format address, including segwit and bech32 -->
+				<option value='LTC'>Litecoin (LTC)</option>
+				<option value='DOGE'>Dogecoin (DOGE)</option>
+				<option value='ETH'>Ethereum (ETH)</option>
+			</select>
+		</div>
+		<form id='signForm'>
+			<div>
+				<h2>Step 2: Fill out the Fields:</h2>
+				<input type='text' id='publicAddress' placeholder='Public Address' autocomplete='off' autocapitalize='off' autocorrect='off' required disabled /><br/>
+				<input type='text' id='privateKey' placeholder='Private Key (WIF)' autocomplete='off' autocapitalize='off' autocorrect='off' required disabled /><br/>
+				<input type='text' id='message' placeholder='Message to Sign (HODLBERG)' autocomplete='off' autocapitalize='off' autocorrect='off' />
+			</div>
+			<div>
+				<h2>Step 3: Sign: <input id='signMessageButton' type='submit' value='Sign' disabled></h2>
+			</div>
+		</form>
+		<div>
+			<h2>Step 4: Copy the Signature:<br/>
+			<span id='signMessageSignature' data-placeholder='HAzTZwPPuJbuOY6PGort6SY787TeeXjPTm8F/uumACN0b9qx6Ikek8toMwYZBx4UG9q7hPz6vQ3P+rtSQrqBiVs='></span></h2>
+		</div>
+		<p><a href='#'>Download this page and its code on github and run offline in a secure environment</a></p>
+	</div>
+</body>
+</html>

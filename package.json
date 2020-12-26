@@ -1,0 +1,16 @@
+{
+  "name": "bitcoinjs-message-signing",
+  "version": "1.0.0",
+  "description": "Message signer for BTC, LTC, and DOGE addresses",
+  "main": "index.js",
+  "dependencies": {
+    "bitcoinjs-lib": "^5.2.0",
+    "bitcoinjs-message": "^2.1.4"
+  },
+  "author": "@eviljordan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvilJordan/bitcoinjs-message-signing.git"
+  }
+}
